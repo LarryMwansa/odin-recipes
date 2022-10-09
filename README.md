@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # odin-recipes
 <<<<<<< HEAD
 
@@ -13,3 +14,6 @@ In this project I will be able to demonstrate:
 - 🌱 I’m currently learning my web development with Odin Project
 - In this project I showcases my knowledge HTML foundations
 >>>>>>> origin
+=======
+
+>>>>>>> a60dd084704b9c4c17578385f1701a15d8b1845b
