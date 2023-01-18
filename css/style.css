@@ -7,3 +7,29 @@ body {
 
     background-color: #65647C;
 }
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo a:link {
+
+    text-decoration: none;
+}
+
+.nav-list {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+.nav-list a:link {
+
+    text-decoration: none;
+}
