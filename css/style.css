@@ -33,3 +33,10 @@ body {
 
     text-decoration: none;
 }
+
+.nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  nav-list a:active {
+    text-decoration: underline;
