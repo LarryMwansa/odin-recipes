@@ -5,13 +5,19 @@
 
 body {
 
-    background-color: #65647C;
+    background-color: #C7BCA1;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
 
     display: flex;
     justify-content: space-between;
+    background-color: #8B7E74;
+    margin: 0;
+    padding: 0;
+    height: 30px;
 }
 
 .header-logo a:link {
@@ -20,13 +26,13 @@ body {
 }
 
 .nav-list {
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: end;
     gap: 1em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .nav-list a:link {
