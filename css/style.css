@@ -10,14 +10,22 @@ body {
     padding: 0;
 }
 
+
+    .hero {
+    background-color: #65647C;
+        height: 500px;
+        margin: 0;
+    }
+
 .header {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #8B7E74;
     margin: 0;
-    padding: 0;
-    height: 30px;
+    padding: 0px;
+    height:50px;
 }
 
 .header-logo a:link {
@@ -36,13 +44,17 @@ body {
 }
 
 .nav-list a:link {
-
     text-decoration: none;
 }
+
+.nav-list a:visited {
+    text-decoration: none;
+  }
 
 .nav-list a:hover {
     text-decoration: underline;
   }
   
-  nav-list a:active {
+  .nav-list a:active {
     text-decoration: underline;
+
