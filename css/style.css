@@ -75,6 +75,18 @@ header {
     font-size: 24px;
   
   }
+
+  .logo a {
+
+    color: #32323d;
+    text-decoration: none;
+
+  }
+
+  .logo a:visited {
+
+    text-decoration: none;
+  }
   
   header nav {
   
