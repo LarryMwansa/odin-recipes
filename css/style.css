@@ -58,3 +58,10 @@ body {
 .nav-list a:active {
     text-decoration: underline;
 
+#hero {
+
+    background-image: url('images/hero.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:200px;width:1200px;
+}
