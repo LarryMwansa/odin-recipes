@@ -110,6 +110,15 @@ header {
   
   }
 
+  nav a:hover {
+    color: #6c5f51;
+}
+
+nav a:visited {
+    color: #F1D3B3;
+}
+
+
   
 /* .header {
 
