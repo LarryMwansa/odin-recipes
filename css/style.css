@@ -1,5 +1,4 @@
 * {
-
     box-sizing: border-box;
 }
 
@@ -10,12 +9,7 @@ body {
     padding: 0;
 }
 
-
-.hero {
-    background-color: #65647C;
-    height: 500px;
-    margin: 0;
-}
+/* menu */
 
 .header {
 
@@ -28,8 +22,8 @@ body {
     height: 50px;
 }
 
-.header-logo a:link {
 
+.header-logo a:link {
     text-decoration: none;
 }
 
@@ -57,11 +51,29 @@ body {
 
 .nav-list a:active {
     text-decoration: underline;
+}
+
+/* hero */
 
 #hero {
-
-    background-image: url('images/hero.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    height:200px;width:1200px;
+    /* display: block; */
+    background-image: url('https://i.cbc.ca/1.5357084.1573681011!/fileImage/httpImage/asian-sea-bass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
 }
+
+.image-container {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    height: 600px;
+    z-index: 0;
+}
+
