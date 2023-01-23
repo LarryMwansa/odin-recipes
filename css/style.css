@@ -57,10 +57,3 @@ body {
 
 .nav-list a:active {
     text-decoration: underline;
-
-    /* Hero */
-
-    .hero-container {
-
-        background-image: url("./images/hero-img.jpg");
-    }
