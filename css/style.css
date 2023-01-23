@@ -39,11 +39,12 @@ header {
 
     background-color: #C7BCA1;
   
-    color: #65647C;
+    color: #32323d;
   
     padding: 20px 0;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 50px;
+
   
   }
   
@@ -103,7 +104,7 @@ header {
   
   header nav ul li a {
   
-    color: #65647C;
+    color: #32323d;
   
     text-decoration: none;
   
