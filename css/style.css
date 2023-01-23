@@ -198,22 +198,23 @@ header {
     
 }
 
-.fish {
+.fish,.chicken,.lasagna {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.fish > * {
+.fish,.lasagna > * {
 
-    padding-left: 100px ;
+    padding-left: 200px ;
 }
 
-.chicken {
-
-    display: flex;
+.chicken >* {
+    padding-right: 200px;
 }
+
+
 
 
 
