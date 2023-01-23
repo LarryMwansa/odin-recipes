@@ -43,7 +43,9 @@ font-weight: 300;
     padding-left: 10px;
     padding-right: 10px;
     height: 50px;
+    
 }
+
 
 
 .header-logo a:link {
@@ -107,7 +109,7 @@ font-weight: 300;
 
 .image-container > h1 {
 
-    font-size: 60px;
+    font-size: 70px;
     line-height: 0.2em;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -116,6 +118,7 @@ font-weight: 300;
 
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     
 }
 
