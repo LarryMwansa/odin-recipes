@@ -11,6 +11,23 @@ body {
     
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+p {
+
+font-size: 20px;
+font-weight: 300;
+}
 
 
 /* menu */
@@ -20,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8B7E74;
+    background-color: #C7BCA1;
     margin: 0;
     padding: 0px;
     padding-left: 10px;
