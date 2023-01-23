@@ -32,6 +32,78 @@ font-weight: 300;
 
 /* menu */
 
+header {
+
+    background-color: #333;
+  
+    color: #fff;
+  
+    padding: 20px 0;
+  
+  }
+  
+  header .container {
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  header .logo {
+  
+    flex: 1;
+  
+  }
+  
+  header .logo img {
+  
+    max-width: 100px;
+  
+  }
+  
+  header .logo h1 {
+  
+    margin: 0;
+  
+    font-size: 24px;
+  
+  }
+  
+  header nav {
+  
+    flex: 1;
+  
+    text-align: right;
+  
+  }
+  
+  header nav ul {
+  
+    list-style: none;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+  }
+  
+  header nav ul li {
+  
+    display: inline-block;
+  
+    margin-left: 20px;
+  
+  }
+  
+  header nav ul li a {
+  
+    color: #fff;
+  
+    text-decoration: none;
+  
+  }
+
 .header {
 
     display: flex;
