@@ -126,9 +126,9 @@ header {
     color: #6c5f51;
 }
 
-nav a:visited {
+/* nav a:visited {
     color: #F1D3B3;
-}
+} */
 
 
   
@@ -152,7 +152,7 @@ nav a:visited {
     text-decoration: none;
 } */
 
-.nav-list {
+/* .nav-list {
     display: flex;
     justify-content: end;
     gap: 0.5em;
@@ -177,7 +177,7 @@ nav a:visited {
 
 .nav-list a:active {
     text-decoration: underline;
-}
+} */
 
 /* hero */
 
@@ -260,6 +260,7 @@ section {
 
     padding-top: 30px;
 }
+
 
 
 .button {
