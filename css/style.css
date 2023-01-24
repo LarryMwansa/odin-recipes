@@ -281,20 +281,17 @@ section {
 
 footer {
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2f2d2b;
+    margin: 0;
+    color: white;
+    height: 100px;
 }
 
-footer ul {
+footer a {
 
-    
-    list-style: none;
+    text-decoration: none;
+    color: rgb(151, 143, 143);
 }
-
-.bottom {
-
-}
-
-
-
-
-
-
