@@ -38,14 +38,10 @@ font-weight: 300;
 header {
 
     background-color: #C7BCA1;
-  
     color: #32323d;
-  
     padding: 20px 0;
     padding-left: 10px;
     padding-right: 50px;
-
-  
   }
   
   header .container  {
