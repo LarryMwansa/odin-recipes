@@ -213,12 +213,23 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.image-container >p {
+.image-container > p {
 
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    padding-bottom: 50px;
     
+}
+
+.image-container > hr {
+
+    border-bottom: solid 1px #F1D3B3;
+    text-align: center;
+    width: 10%;
+    margin-top: 50px;
+    margin: auto;
+
 }
 
 /* Section Styling */
@@ -262,7 +273,6 @@ section {
 }
 
 
-
 .button {
     background-color: #F1D3B3; /* Green */
     border: none;
@@ -275,6 +285,14 @@ section {
     box-shadow: 3px 3px 3px #32323d;
 }
 
+hr {
+
+    border-bottom: solid 1px #F1D3B3;
+    width: 20%;
+    margin-left: 0;
+
+
+}
 
 
 /* footer Styling */
