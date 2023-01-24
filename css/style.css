@@ -15,13 +15,13 @@ body {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 p {
@@ -69,6 +69,7 @@ header {
     margin: 0;
   
     font-size: 24px;
+    font-weight: 600;
   
   }
 
@@ -282,12 +283,10 @@ section {
 }
 
 hr {
-
+    
     border-bottom: solid 1px #F1D3B3;
     width: 20%;
     margin-left: 0;
-
-
 }
 
 
