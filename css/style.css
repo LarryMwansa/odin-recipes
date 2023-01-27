@@ -51,12 +51,11 @@ header .logo {
 }
 
 header .logo img {
-  max-width: 30px;
+  max-width: 200px;
 }
 
 header .logo h1 {
   margin: 0;
-
   font-size: 24px;
   font-weight: 600;
 }
@@ -124,20 +123,20 @@ nav a:hover {
   text-align: center;
 }
 
-.image-container > h1 {
+.image-container>h1 {
   font-size: 70px;
   line-height: 0.2em;
   font-family: "Times New Roman", Times, serif;
 }
 
-.image-container > p {
+.image-container>p {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   padding-bottom: 50px;
 }
 
-.image-container > hr {
+.image-container>hr {
   border-bottom: solid 1px #f1d3b3;
   text-align: center;
   width: 10%;
@@ -147,47 +146,25 @@ nav a:hover {
 
 /* Section Styling */
 
-/* .section {
+.fish-section,
+.chicken-section,
+.lasagna-section {
   display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 30px 150px 30px 100px;
+  
+}
+
+.fish-section,
+.lasagna-section {
+  background-color: #8b7e74;
 }
 
 .content {
-  flex-direction: 1;
-  padding-left: 100px;
-  padding-right: 100px;
-} */
+  margin-left: 100px;
+  margin-right: 100px;
 
-/* .fish,
-.chicken,
-.lasagna {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; */
-
-
-
-/* .fish {
-  display: flex;
-  justify-content: center;
-  gap: 3em;
-  padding: 30px 150px 30px 100px;
-  box-shadow: 3px 3px 3px #32323d; */
-
-  .fish-section {
-    display: flex;
-  justify-content: center;
-  gap: 3em;
-  padding: 30px 150px 30px 100px;
-  box-shadow: 3px 3px 3px #32323d;
-  }
-
-  .content {
-
-  }
-
-.fish-section,
-.lasagna {
-  background-color: #8b7e74;
 }
 
 .button-container {
@@ -195,7 +172,8 @@ nav a:hover {
 }
 
 .button {
-  background-color: #f1d3b3; /* Green */
+  background-color: #f1d3b3;
+  /* Green */
   border: none;
   color: #65647c;
   width: 200px;
@@ -215,18 +193,31 @@ hr {
 /* footer Styling */
 
 footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+
   background-color: #2f2d2b;
   margin: 0;
   color: white;
-  height: 100px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  
 }
 
 footer a {
   text-decoration: none;
   color: rgb(151, 143, 143);
+}
+
+.footer img {
+
+  max-width: 300px;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-left: 30px;
 }
 
 /* recipe page */
@@ -235,14 +226,15 @@ footer a {
 
 #title {
   background-color: #8b7e74;
-  
+
 }
 
-#details hr, .nutrition hr {
+#details hr,
+.nutrition hr {
 
-    width: 60%;
-    margin-left: auto;
-    
+  width: 60%;
+  margin-left: auto;
+
 
 }
 
@@ -262,10 +254,7 @@ footer a {
   box-shadow: 3px 3px 3px #32323d;
 }
 
-.heading-image {
-
-  
-}
+.heading-image {}
 
 .description p {
   font-size: 16px;
@@ -296,13 +285,15 @@ footer a {
 }
 
 
-.ingredients ul, .method ul {
+.ingredients ul,
+.method ul {
   list-style: none;
   line-height: 1.5em;
   font-size: 16px;
 }
 
-.ingredients h2, .method h2 {
+.ingredients h2,
+.method h2 {
   font-size: 28px;
   margin-left: 32px;
 }
@@ -330,13 +321,12 @@ footer a {
 
   display: flex;
   justify-content: start;
-  gap:3em;
-  
+  gap: 3em;
+
 }
 
 .nutrition hr {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
-
