@@ -147,7 +147,7 @@ nav a:hover {
 
 /* Section Styling */
 
-.section {
+/* .section {
   display: flex;
 }
 
@@ -155,17 +155,37 @@ nav a:hover {
   flex-direction: 1;
   padding-left: 100px;
   padding-right: 100px;
-}
+} */
 
-.fish,
+/* .fish,
 .chicken,
 .lasagna {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; */
 
-.fish,
+
+
+/* .fish {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 30px 150px 30px 100px;
+  box-shadow: 3px 3px 3px #32323d; */
+
+  .fish-section {
+    display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 30px 150px 30px 100px;
+  box-shadow: 3px 3px 3px #32323d;
+  }
+
+  .content {
+
+  }
+
+.fish-section,
 .lasagna {
   background-color: #8b7e74;
 }
