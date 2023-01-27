@@ -27,6 +27,8 @@ p {
   font-weight: 300;
 }
 
+/* ============================================================================================ */
+
 /* menu */
 
 /* Primary Header */
@@ -144,6 +146,8 @@ nav a:hover {
   margin: auto;
 }
 
+/* ============================================================================================= */
+
 /* Section Styling */
 
 .fish-section,
@@ -189,29 +193,26 @@ hr {
   width: 20%;
   margin-left: 0;
 }
+/* ================================================================================================= */
 
 /* footer Styling */
 
 footer {
-
-  background-color: #2f2d2b;
   margin: 0;
   color: white;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
-  
+  padding-bottom: 50px;
+  background-color: #2f2d2b;
 }
 
-footer a {
-  text-decoration: none;
-  color: rgb(151, 143, 143);
-}
+
 
 .footer img {
-
   max-width: 300px;
 }
 
@@ -219,6 +220,24 @@ footer a {
   font-size: 16px;
   margin-left: 30px;
 }
+
+.icons img {
+   max-width: 70px;
+   padding-right: 20px;
+}
+
+.end-line p {
+  margin-left: 30px;
+  color: #2f2d2b;
+}
+
+.end-line a {
+
+  text-decoration: none;
+  color: #2f2d2b;
+}
+
+/* ======================================================================================================================== */
 
 /* recipe page */
 
