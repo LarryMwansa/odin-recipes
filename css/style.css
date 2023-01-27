@@ -6,18 +6,18 @@ body {
   background-color: #c7bca1;
   margin: 0;
   padding: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #32323d;
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Gill Sans", serif;
   font-size: 50px;
   font-weight: 600;
 }
 
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", Times, serif;
   font-size: 35px;
   font-weight: 600;
 }
@@ -117,7 +117,6 @@ nav a:hover {
   display: block;
   background: rgba(0, 0, 0, 0.6);
   height: 600px;
-  /* z-index: 0; */
   color: white;
   margin: 0;
   padding-top: 200px;
@@ -125,20 +124,20 @@ nav a:hover {
   text-align: center;
 }
 
-.image-container>h1 {
-  font-size: 70px;
+.image-container > h1 {
+  font-size: 60px;
   line-height: 0.2em;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", Times, serif;
 }
 
-.image-container>p {
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
+.image-container > p {
+  font-size: 25px;
+  font-family: "Gill Sans MT", Times, serif;
   font-style: italic;
   padding-bottom: 50px;
 }
 
-.image-container>hr {
+.image-container > hr {
   border-bottom: solid 1px #f1d3b3;
   text-align: center;
   width: 10%;
@@ -155,9 +154,8 @@ nav a:hover {
 .lasagna-section {
   display: flex;
   justify-content: center;
-  gap: 3em;
+  gap: 1em;
   padding: 30px 150px 30px 100px;
-  
 }
 
 .fish-section,
@@ -168,8 +166,9 @@ nav a:hover {
 .content {
   margin-left: 100px;
   margin-right: 100px;
-
 }
+
+
 
 .button-container {
   padding-top: 30px;
@@ -210,8 +209,6 @@ footer {
   background-color: #2f2d2b;
 }
 
-
-
 .footer img {
   max-width: 300px;
 }
@@ -222,8 +219,13 @@ footer {
 }
 
 .icons img {
-   max-width: 70px;
-   padding-right: 20px;
+  max-width: 70px;
+  padding-right: 20px;
+}
+
+.end-line {
+  display: inline;
+  margin: auto;
 }
 
 .end-line p {
@@ -232,7 +234,6 @@ footer {
 }
 
 .end-line a {
-
   text-decoration: none;
   color: #2f2d2b;
 }
@@ -245,22 +246,16 @@ footer {
 
 #title {
   background-color: #8b7e74;
-
 }
 
-#details hr,
-.nutrition hr {
-
+#details hr {
   width: 60%;
   margin-left: auto;
-
-
 }
 
 #time {
-
-  background-color: #F1D3B3;
-  margin: 50px 200px 50px 200px;
+  background-color: #f1d3b3;
+  margin: 50px 200px 80px 200px;
   padding: 30px 100px 30px 100px;
   box-shadow: 3px 3px 3px #32323d;
 }
@@ -269,46 +264,54 @@ footer {
   display: flex;
   justify-content: center;
   gap: 3em;
-  padding: 30px 150px 30px 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
   box-shadow: 3px 3px 3px #32323d;
 }
 
-.heading-image {}
+.heading-image {
+}
 
 .description p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .cooking-facts {
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  
 }
 
 .cooking-time {
-
   display: flex;
   justify-content: center;
-  gap: 3em
+  gap: 3em;
 }
-
 
 .instructions {
   display: flex;
-  justify-content: space-around;
-  gap: 4em;
+  justify-content: center;
+  gap: 1em;
   margin-left: 170px;
   margin-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+.ingredients,.method {
+
+  flex: 1;
+}
 
 .ingredients ul,
 .method ul {
   list-style: none;
   line-height: 1.5em;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .ingredients h2,
@@ -317,14 +320,13 @@ footer {
   margin-left: 32px;
 }
 
-
 .ingredients hr {
-
-  width: 100%;
+  max-width: 50%;
+ margin-right: 500px;
+  
 }
 
 .method-image {
-
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -333,19 +335,15 @@ footer {
 .nutrition {
   margin-left: 200px;
   margin-bottom: 100px;
-
 }
 
 .nutrition-facts {
-
   display: flex;
   justify-content: start;
   gap: 3em;
-
 }
 
 .nutrition hr {
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
