@@ -1,311 +1,317 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-
-    background-color: #C7BCA1;
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #32323d;
-    
+  background-color: #c7bca1;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #32323d;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 p {
-
-font-size: 20px;
-font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
 }
-
 
 /* menu */
 
 /* Primary Header */
 
 header {
-    /* background-image: url(/10. course-work_wkspc/odin-recipes/images/hero.png); */
-    background-color: #C7BCA1;
-    color: #32323d;
-    padding: 20px 0;
-    padding-left: 10px;
-    padding-right: 50px;
-  }
-  
-  header .container  {
-  
-    display: flex;
-  
-    align-items: center;
-  
-  }
-  
-  header .logo {
-  
-    flex: 1;
-  
-  }
-  
-  header .logo img {
-  
-    max-width: 100px;
-  
-  }
-  
-  header .logo h1 {
-  
-    margin: 0;
-  
-    font-size: 24px;
-    font-weight: 600;
-  
-  }
-
-  .logo a {
-
-    color: #32323d;
-    text-decoration: none;
-
-  }
-
-  .logo a:visited {
-
-    text-decoration: none;
-  }
-  
-  header nav {
-  
-    flex: 1;
-  
-    text-align: right;
-  
-  }
-  
-  header nav ul {
-  
-    list-style: none;
-  
-    margin: 0;
-  
-    padding: 0;
-  
-  }
-  
-  header nav ul li {
-  
-    display: inline-block;
-  
-    margin-left: 20px;
-  
-  }
-  
-  header nav ul li a {
-  
-    color: #32323d;
-  
-    text-decoration: none;
-  
-  }
-
-  nav a:hover {
-    color: #6c5f51;
+  /* background-image: url(/10. course-work_wkspc/odin-recipes/images/hero.png); */
+  background-color: #c7bca1;
+  color: #32323d;
+  padding: 20px 0;
+  padding-left: 10px;
+  padding-right: 50px;
 }
 
-/* nav a:visited {
-    color: #F1D3B3;
-} */
+header .container {
+  display: flex;
 
-
-  
-/* .header {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #C7BCA1;
-    margin: 0;
-    padding: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 50px;
-    
+  align-items: center;
 }
 
-
-
-.header-logo a:link {
-    text-decoration: none;
-} */
-
-/* .nav-list {
-    display: flex;
-    justify-content: end;
-    gap: 0.5em;
-    list-style: none;
-    margin: 0;
-    padding-top: 20px;
-    padding: 0;
-
+header .logo {
+  flex: 1;
 }
 
-.nav-list a:link {
-    text-decoration: none;
+header .logo img {
+  max-width: 30px;
 }
 
-.nav-list a:visited {
-    text-decoration: none;
+header .logo h1 {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.nav-list a:hover {
-    text-decoration: underline;
+.logo a {
+  color: #32323d;
+  text-decoration: none;
 }
 
-.nav-list a:active {
-    text-decoration: underline;
-} */
+.logo a:visited {
+  text-decoration: none;
+}
 
-/* hero */
+header nav {
+  flex: 1;
+
+  text-align: right;
+}
+
+header nav ul {
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #32323d;
+
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #6c5f51;
+}
 
 #hero {
-    /* display: block; */
-    /* background-image: url('https://i.cbc.ca/1.5357084.1573681011!/fileImage/httpImage/asian-sea-bass.jpg'); */
-    background-image: url('/10. course-work_wkspc/odin-recipes/images/hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;  
-    width: 100%;
-    height: 600px;
-    margin: 0;
-    padding: 0;
+  background-image: url("/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
 }
 
 .image-container {
-    display: block;
-    background: rgba(0, 0, 0, .6);
-    height: 600px;
-    /* z-index: 0; */
-    color: white;
-    margin: 0;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    text-align: center;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  height: 600px;
+  /* z-index: 0; */
+  color: white;
+  margin: 0;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .image-container > h1 {
-
-    font-size: 70px;
-    line-height: 0.2em;
-    font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  line-height: 0.2em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .image-container > p {
-
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    padding-bottom: 50px;
-    
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 50px;
 }
 
 .image-container > hr {
-
-    border-bottom: solid 1px #F1D3B3;
-    text-align: center;
-    width: 10%;
-    margin-top: 50px;
-    margin: auto;
-
+  border-bottom: solid 1px #f1d3b3;
+  text-align: center;
+  width: 10%;
+  margin-top: 50px;
+  margin: auto;
 }
 
 /* Section Styling */
 
-section {
-
-    margin: 0;
-    padding: 0;
-
+.section {
+  display: flex;
 }
 
 .content {
-    flex-direction: 1;
-    padding-left: 100px;
-    padding-right: 100px;
-
+  flex-direction: 1;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.image {
-
-
-
+.fish,
+.chicken,
+.lasagna {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.fish,.chicken,.lasagna {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.fish,.lasagna {
-
-    background-color: #8B7E74;
+.fish,
+.lasagna {
+  background-color: #8b7e74;
 }
 
 .button-container {
-
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
-
 .button {
-    background-color: #F1D3B3; /* Green */
-    border: none;
-    color: #65647C;
-    width: 200px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    box-shadow: 3px 3px 3px #32323d;
+  background-color: #f1d3b3; /* Green */
+  border: none;
+  color: #65647c;
+  width: 200px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 3px 3px 3px #32323d;
 }
 
 hr {
-
-    border-bottom: solid 1px #F1D3B3;
-    width: 20%;
-    margin-left: 0;
+  border-bottom: solid 1px #f1d3b3;
+  width: 20%;
+  margin-left: 0;
 }
-
 
 /* footer Styling */
 
 footer {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #2f2d2b;
-    margin: 0;
-    color: white;
-    height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2f2d2b;
+  margin: 0;
+  color: white;
+  height: 100px;
 }
 
 footer a {
-
-    text-decoration: none;
-    color: rgb(151, 143, 143);
+  text-decoration: none;
+  color: rgb(151, 143, 143);
 }
+
+/* recipe page */
+
+/* Title and Description section */
+
+#title {
+  background-color: #8b7e74;
+  
+}
+
+#details hr, .nutrition hr {
+
+    width: 60%;
+    margin-left: auto;
+
+}
+
+#time {
+
+  background-color: #F1D3B3;
+  margin: 50px 200px 50px 200px;
+  padding: 30px 100px 30px 100px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 30px 150px 30px 100px;
+}
+
+.head-items {
+}
+
+.description p {
+  font-size: 16px;
+}
+
+.cooking-facts {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cooking-time {
+
+  display: flex;
+  justify-content: center;
+  gap: 3em
+}
+
+
+.instructions {
+  display: flex;
+  justify-content: space-around;
+  gap: 4em;
+  margin-left: 170px;
+  margin-right: 200px;
+}
+
+
+.ingredients ul, .method ul {
+  list-style: none;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.ingredients h2, .method h2 {
+  font-size: 28px;
+  margin-left: 32px;
+}
+
+
+.ingredients hr {
+
+  width: 100%;
+}
+
+.method-image {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.nutrition {
+  margin-left: 200px;
+  margin-bottom: 100px;
+
+}
+
+.nutrition-facts {
+
+  display: flex;
+  justify-content: start;
+  gap:3em;
+  
+}
+
+.nutrition hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
