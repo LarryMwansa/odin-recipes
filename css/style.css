@@ -222,6 +222,7 @@ footer a {
 
     width: 60%;
     margin-left: auto;
+    
 
 }
 
@@ -230,6 +231,7 @@ footer a {
   background-color: #F1D3B3;
   margin: 50px 200px 50px 200px;
   padding: 30px 100px 30px 100px;
+  box-shadow: 3px 3px 3px #32323d;
 }
 
 .heading {
@@ -237,9 +239,12 @@ footer a {
   justify-content: center;
   gap: 3em;
   padding: 30px 150px 30px 100px;
+  box-shadow: 3px 3px 3px #32323d;
 }
 
-.head-items {
+.heading-image {
+
+  
 }
 
 .description p {
